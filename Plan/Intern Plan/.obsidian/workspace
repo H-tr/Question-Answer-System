@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "9a82d0c40b4bfd3e",
+    "type": "split",
+    "children": [
+      {
+        "id": "67ac739b4323b455",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "First week.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d42aa854a7bed054",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3ea87eeb60aac63",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed1e93b26b802639",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0f694e94b91af300",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3cfac800f2dc35b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "d51138001f253bb9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0025960f3552beb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "First week.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "67ac739b4323b455",
+  "lastOpenFiles": [
+    "First week.md",
+    "General Plan.md"
+  ]
+}
