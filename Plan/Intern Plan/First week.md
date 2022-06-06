@@ -1,6 +1,0 @@
-- [ ] watching BERT video and implement
-- [ ] watching GPT3 video and implement
-- [ ] read BERT paper
-- [ ] read GPT3 paper
-- [ ] write the differences between them
-- [ ] write which one to choose and the reason

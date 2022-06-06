@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "First week.md",
+            "file": "General Plan.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First week.md",
+                "file": "General Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +89,7 @@
   },
   "active": "67ac739b4323b455",
   "lastOpenFiles": [
-    "First week.md",
-    "General Plan.md"
+    "General Plan.md",
+    "First week.md"
   ]
 }
