@@ -1,4 +1,4 @@
-from QAsystem import gpt3
+from QAsystemGPT import gpt3
 
 def chat():
     prompt = """Human: Hey, how are you doing?
