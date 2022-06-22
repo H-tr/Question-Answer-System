@@ -22,4 +22,5 @@ could be described as two components:
 ## Reference
 [Introduction to QA System](https://qa.fastforwardlabs.com/methods/background/2020/04/28/Intro-to-QA.html)
 [Building a QA System with BERT on Wikipedia](https://qa.fastforwardlabs.com/pytorch/hugging%20face/wikipedia/bert/transformers/2020/05/19/Getting_Started_with_QA.html)
+[Evaluating QA: Metrics, Predictions, and the Null Response](https://qa.fastforwardlabs.com/no%20answer/null%20threshold/bert/distilbert/exact%20match/f1/robust%20predictions/2020/06/09/Evaluating_BERT_on_SQuAD.html)
 
