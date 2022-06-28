@@ -1,0 +1,4 @@
+pdfminer.six
+pymysql
+pandas
+openai

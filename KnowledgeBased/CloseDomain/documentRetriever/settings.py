@@ -1,0 +1,5 @@
+HOST_IP = 'localhost'  
+PORT = '3306'
+USER = 'root'
+PASSWD = 'nlp'
+DB_NAME = 'CB1131 lecture notes'
