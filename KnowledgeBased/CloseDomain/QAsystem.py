@@ -1,10 +1,10 @@
-from documentRetriever import readPDF as rdpdf
+from documentRetriever import retriever as r
 from transformers import pipeline
 
 def system():
     while True:
-        # test whether the QA system can get reasonably correct answer
-        text = rdpdf.convert_pdf_2_text('data/AlexNet.pdf')
+        ret = r.retriever()
+        text = ret.convert_pdf_2_text("data/AlexNet.pdf")
         question = input("\nPlease enter your question: \n")
     
         question_answering = pipeline("question-answering")

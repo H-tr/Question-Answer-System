@@ -2,3 +2,5 @@ pdfminer.six
 pymysql
 pandas
 openai
+sklearn
+tqdm
