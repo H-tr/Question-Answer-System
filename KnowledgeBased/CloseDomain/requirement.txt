@@ -4,3 +4,5 @@ pandas
 openai
 sklearn
 tqdm
+gensim
+nltk
