@@ -1,21 +1,32 @@
 from documentRetriever import retriever as r
 from transformers import pipeline
+import warnings
+import numpy as np
 
 def system():
+    warnings.filterwarnings("ignore", category=np.VisibleDeprecationWarning) 
+    question = input("\nPlease enter your question: \n")
     while True:
         ret = r.retriever()
-        question = input("\nPlease enter your question: \n")
+
         # using cosine similarity to choose the file
-        selected = ret.cosineSimilarity(question) 
-        text = ret.convert_pdf_2_text("data/" + selected)
+        # name, text = ret.cosineSimilarity(question)
+
+        # using simhash distance to choose the file
+        name, text = ret.simHash(question) 
 
         question_answering = pipeline("question-answering")
         result = question_answering(question=question, context=text)
         print("BERT: " + result['answer'])
+        ch = input("Do you want to ask another question? (Y/n) ")
+        if ch == 'y' or ch == 'Y':
+            question = input("\nPlease enter your question: \n")
+        else:
+            print("Bye!")
+            break
 
-system()
-# def main():
-#     system()
+def main():
+    system()
 
-# if __name__ == "__name__":
-#     main()
+if __name__ == "__main__":
+    main()
