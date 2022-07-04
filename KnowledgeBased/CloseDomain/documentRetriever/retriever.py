@@ -31,6 +31,8 @@ try:
 except ImportError:
     from collections import Iterable
 
+from numba import jit
+
 if sys.version_info[0] >= 3:
     basestring = str
     unicode = str
@@ -316,25 +318,24 @@ class retriever:
 
         return text
 
-    def cosineSimilarity(self, text):
+    def cosineSimilarity(self, documents, text):
         fasttext_model300 = api.load('fasttext-wiki-news-subwords-300')
         download('stopwords')
         stop_words = stopwords.words('english')
         maxSmi = 0.0
-        maxDoc = ''
         selected = ''
-        for _, row in self.doc_features.iterrows():
-            print("Computing similarity of " + row['name'])
-            data = row['text'].lower().split()
+        for item in documents:
+            # print("Computing similarity of " + row['name'])
+            data = item.lower().split()
             data = [w for w in data if w not in stop_words]
             query = text.lower().split()
             query = [w for w in query if w not in stop_words]
 
             # prepare a dictionary and a corpus
-            documents = [query, data]
+            document = [query, data]
             #  print(data)
             #  print(documents)
-            dictionary = corpora.Dictionary(documents)
+            dictionary = corpora.Dictionary(document)
 
             # Convert the sentences into bag-of-words vectors
             query = dictionary.doc2bow(query)
@@ -348,15 +349,15 @@ class retriever:
             similarity = similarity_matrix.inner_product(query, data, normalized=(True, True))
             if similarity > maxSmi:
                 maxSmi = similarity
-                maxDoc = row['name']
-                selected = row['text']
-            print(f"The similarity to {row['name']} is {similarity}")
-        return maxDoc, selected
+                # maxDoc = row['name']
+                selected = item
+                print("Selected")
+            print(f"The similarity is {similarity}")
+        return selected
 
     def simHash(self, text):
         distance = 1e5
-        bestDoc= ''
-        reText = ''
+        documents = []
         for _, row in self.doc_features.iterrows():
             # print("Computing similarity of " + row['name'])
             sh = Simhash(row['text'])
@@ -364,7 +365,17 @@ class retriever:
             curDistance = sh.distance(sh2)
             if distance > curDistance:
                 distance = curDistance
-                bestDoc = row['name']
-                reText = row['text']
             print(f"The distance to {row['name']} is {curDistance}")
-        return bestDoc, reText
+        # get all the documents with lowest distance
+        for _, row in self.doc_features.iterrows():
+            sh = Simhash(row['text'])
+            sh2 = Simhash(text)
+            if distance == sh.distance(sh2):
+                documents.append(row['text'])
+                # print(row['name'])
+        return documents
+
+    def engine(self, question):
+        documents = self.simHash(question)
+        selected = self.cosineSimilarity(documents, question)
+        return selected

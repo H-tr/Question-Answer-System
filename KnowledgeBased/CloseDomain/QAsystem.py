@@ -1,26 +1,22 @@
-from documentRetriever import retriever as r
-from transformers import pipeline
-import warnings
-import numpy as np
+from xml.dom.minidom import Document
+from documentRetriever import retriever as ret
+from documentReader import BERTreader as rd
 
 def system():
-    warnings.filterwarnings("ignore", category=np.VisibleDeprecationWarning) 
     question = input("\nPlease enter your question: \n")
     while True:
-        ret = r.retriever()
-
-        # using cosine similarity to choose the file
-        # name, text = ret.cosineSimilarity(question)
+        retriever = ret.retriever()
+        reader = rd.reader()
 
         # using simhash distance to choose the file
-        name, text = ret.simHash(question) 
+        text = retriever.engine(question)
+        # print(documents)
 
-        question_answering = pipeline("question-answering")
-        result = question_answering(question=question, context=text)
-        print("BERT: " + result['answer'])
+        print("BERT: ")
         ch = input("Do you want to ask another question? (Y/n) ")
         if ch == 'y' or ch == 'Y':
             question = input("\nPlease enter your question: \n")
+            reader.answer(question=question, text=text)
         else:
             print("Bye!")
             break
