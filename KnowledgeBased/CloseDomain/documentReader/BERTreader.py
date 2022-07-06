@@ -10,9 +10,9 @@ class reader():
     def __init__(self) -> None:
         pass
 
-    def answer(self, question, text):
-        question_answering = pipeline("question-answering", model="distilbert-base-cased-distilled-squad", tokenizer="bert-base-cased")
-        result = question_answering(question=question, context=text)
+    def answer(self, query, text):
+        question_answering = pipeline("question-answering", model="distilbert-base-cased-distilled-squad")
+        result = question_answering(question=query, context=text)
         return result['answer']
 
     def split_document(d, tokenizer):

@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul  4 16:23:58 2022
+# Make data base, printed on Mon Jul  4 22:01:41 2022
 
 # Variables
 
@@ -61,7 +61,7 @@ CONDA_PREFIX = /home/run/.miniconda3/envs/SummerIntern
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-08353a9d-f57b-42ad-9ea5-8acdeb3eb56d.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-976ab079-e389-44f4-8514-073b869763ab.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -83,7 +83,7 @@ LIBJPG = /usr/lib/x86_64-linux-gnu/libjpeg.so
 # environment
 GEM_HOME = /home/run/gems
 # environment
-WSL_INTEROP = /run/WSL/8_interop
+WSL_INTEROP = /run/WSL/242_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
@@ -177,11 +177,9 @@ VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 # environment
 WSL_DISTRO_NAME = ubuntu
 # environment
-MOTD_SHOWN = update-motd
-# environment
 _CE_CONDA = 
 # variable set hash-table stats:
-# Load=84/1024=8%, Rehash=0, Collisions=6/106=6%
+# Load=83/1024=8%, Rehash=0, Collisions=6/105=6%
 
 # Pattern-specific Variable Values
 
@@ -247,6 +245,6 @@ GNUmakefile:
 # strcache performance: lookups = 27 / hit rate = 11%
 # hash-table stats:
 # Load=24/8192=0%, Rehash=0, Collisions=1/27=4%
-# Finished Make data base on Mon Jul  4 16:23:58 2022
+# Finished Make data base on Mon Jul  4 22:01:41 2022
 
  

@@ -372,7 +372,7 @@ class retriever:
             sh2 = Simhash(text)
             if distance == sh.distance(sh2):
                 documents.append(row['text'])
-                # print(row['name'])
+                print(row['name'] + " is selected.")
         return documents
 
     def engine(self, question):
