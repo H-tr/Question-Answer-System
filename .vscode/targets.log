@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul  4 22:01:41 2022
+# Make data base, printed on Wed Jul  6 14:03:44 2022
 
 # Variables
 
@@ -53,7 +53,7 @@ VSCODE_CWD = /mnt/c/Users/tianr/AppData/Local/Programs/Microsoft VS Code
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/run/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/home/run/.local/bin:/home/run/gems/bin:/home/run/.miniconda3/envs/SummerIntern/bin:/home/run/.miniconda3/condabin:/usr/local/cuda-11.7/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/d/Windows/VMware/VMplayer/bin:/mnt/c/Python310/Scripts:/mnt/c/Python310:/mnt/c/Program Files/Microsoft/jdk-11.0.12.7-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files/dotnet:/mnt/d/Program Files (x86)/IncrediBuild:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/nodejs:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/tools/gsudo/Current:/mnt/c/Program Files (x86)/gsudo:/mnt/c/tools/lxrunoffline:/mnt/d/Data/others/EasyShare/x86:/mnt/d/Data/others/EasyShare/x64:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin:/mnt/c/Users/tianr/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/tianr/.dotnet/tools:/mnt/c/Users/tianr/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/tianr/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin:/mnt/c/texlive/2021/bin/win32:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2021.3.2/bin:/mnt/d/Windows/platform-tools_r33.0.1-windows/platform-tools:/mnt/d/Windows/Intellij/IntelliJ IDEA Community Edition 2022.1.1/bin:/mnt/c/Program Files/Java/jdk-18.0.1.1/bin:/snap/bin:/usr/local/go/bin
+PATH = /home/run/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/home/run/.local/bin:/home/run/gems/bin:/home/run/.miniconda3/envs/SummerIntern/bin:/home/run/.miniconda3/condabin:/usr/local/cuda-11.7/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/d/Windows/VMware/VMplayer/bin:/mnt/c/Python310/Scripts:/mnt/c/Python310:/mnt/c/Program Files/Microsoft/jdk-11.0.12.7-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files/dotnet:/mnt/d/Program Files (x86)/IncrediBuild:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/nodejs:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/tools/gsudo/Current:/mnt/c/Program Files (x86)/gsudo:/mnt/c/tools/lxrunoffline:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64:/mnt/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/d/Data/others/EasyShare/x86:/mnt/d/Data/others/EasyShare/x64:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin:/mnt/c/Users/tianr/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/tianr/.dotnet/tools:/mnt/c/Users/tianr/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/tianr/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin:/mnt/c/texlive/2021/bin/win32:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2021.3.2/bin:/mnt/d/Windows/platform-tools_r33.0.1-windows/platform-tools:/mnt/d/Windows/Intellij/IntelliJ IDEA Community Edition 2022.1.1/bin:/mnt/c/Program Files/Java/jdk-18.0.1.1/bin:/snap/bin:/usr/local/go/bin
 # environment
 XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
 # environment
@@ -61,7 +61,7 @@ CONDA_PREFIX = /home/run/.miniconda3/envs/SummerIntern
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-976ab079-e389-44f4-8514-073b869763ab.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-8f576cc0-c902-4c1f-ab3b-ff3e206596c2.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -83,7 +83,7 @@ LIBJPG = /usr/lib/x86_64-linux-gnu/libjpeg.so
 # environment
 GEM_HOME = /home/run/gems
 # environment
-WSL_INTEROP = /run/WSL/242_interop
+WSL_INTEROP = /run/WSL/8_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
 # environment
@@ -97,7 +97,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = run
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 CONDA_PROMPT_MODIFIER = (SummerIntern) 
 # environment
@@ -177,9 +177,11 @@ VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 # environment
 WSL_DISTRO_NAME = ubuntu
 # environment
+MOTD_SHOWN = update-motd
+# environment
 _CE_CONDA = 
 # variable set hash-table stats:
-# Load=83/1024=8%, Rehash=0, Collisions=6/105=6%
+# Load=84/1024=8%, Rehash=0, Collisions=6/106=6%
 
 # Pattern-specific Variable Values
 
@@ -187,7 +189,7 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 100, inode 45317471254465900): 16 files, no impossibilities.
+# . (device 1048610, inode 45317471254465900): 16 files, no impossibilities.
 
 # 16 files, no impossibilities in 1 directories.
 
@@ -245,6 +247,6 @@ GNUmakefile:
 # strcache performance: lookups = 27 / hit rate = 11%
 # hash-table stats:
 # Load=24/8192=0%, Rehash=0, Collisions=1/27=4%
-# Finished Make data base on Mon Jul  4 22:01:41 2022
+# Finished Make data base on Wed Jul  6 14:03:44 2022
 
  
