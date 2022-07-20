@@ -1,0 +1,15 @@
+djoser
+pdfminer.six
+pymysql
+pandas
+openai
+sklearn
+tqdm
+gensim
+nltk
+numba
+django
+django-rest-framework
+django-cors-headers
+pillow
+stripe
